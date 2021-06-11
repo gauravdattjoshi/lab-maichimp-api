@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //MailChimp Details
 mailChimp.setConfig({
-    apiKey: process.env.MAILCHIMP_API_KEY + "dmdm",
+    apiKey: process.env.MAILCHIMP_API_KEY,
     server: process.env.SERVER_PREFIX,
 
 });
